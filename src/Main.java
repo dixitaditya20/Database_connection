@@ -43,9 +43,9 @@ public class Main {
                 String age = rs.getString("emp_age");
                 String dept_id = rs.getString("emp_dept_id");
                 String id = rs.getString("emp_id");
-                String name = rs.getString("emp_name");
+                String names = rs.getString("emp_name");
 
-                System.out.format("%s, %s, %s, %s \n",age, dept_id, id, name);
+                System.out.format("%s, %s, %s, %s \n",age, dept_id, id, names);
             }
 
             /*
